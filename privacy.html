@@ -17,13 +17,13 @@
         header {
             background: linear-gradient(135deg, #000000, #5c5b5b, #b2b2b2);
             color: white;
-            padding: 60px 20px;
+            padding: 30px 20px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             margin: 0;
             animation: fadeIn 1s ease-in-out;
         }
@@ -48,9 +48,9 @@
 
         /* Content Section */
         .content {
-            padding: 20px 20px;
+            padding: 20px;
             max-width: 1000px;
-            margin: 120px auto;
+            margin: 40px auto;
             background-color: #fff;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
@@ -62,15 +62,15 @@
         }
 
         h2 {
-            font-size: 1.35rem;
+            font-size: 1.4rem;
             color: #333;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         p {
             font-size: 1rem;
             line-height: 1.6;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         ul {
@@ -81,11 +81,9 @@
         footer {
             background-color: #333;
             color: white;
-            padding: 30px;
+            padding: 20px;
             text-align: center;
-            position: fixed;
             width: 100%;
-            bottom: 0;
         }
 
         footer a {
@@ -99,13 +97,37 @@
             text-decoration: underline;
         }
 
-        /* Media Queries */
+        /* Responsive Styles */
         @media (max-width: 768px) {
+            header {
+                padding: 20px 10px;
+            }
+
             header h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 1rem;
+                padding: 0 10px;
             }
 
             .content {
+                padding: 15px;
+                margin: 20px 10px;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 0.95rem;
+                line-height: 1.5;
+            }
+
+            footer {
+                position: relative;
                 padding: 20px;
             }
         }
@@ -116,7 +138,8 @@
 <!-- Header Section -->
 <header>
     <h1>Privacy Policy Statement</h1>
-    <p>Effective Date: March 1, 2025</p></header>
+    <p>Effective Date: March 1, 2025</p>
+</header>
 
 <!-- Content Section -->
 <section class="content">
@@ -129,12 +152,10 @@
     <p>Subscription information linked to Firebase user ID.</p>
     <div class="spacer"></div>
 
-
     <h2>3. Data Usage</h2>
     <p>Data is used for generating reports, displaying news, and managing subscriptions.</p>
     <p>Reports are stored securely on Firebase Storage.</p>
     <div class="spacer"></div>
-
 
     <h2>4. Third-Party Services</h2>
     <p>Firebase is used for authentication and secure user management.</p>
@@ -142,27 +163,22 @@
     <p>Snapi LLC and Finazon provide stock market data.</p>
     <div class="spacer"></div>
 
-
     <h2>5. User Rights</h2>
     <p>Users can request access to their data or request deletion.</p>
     <p>Data deletion requests may take up to 30 days to process.</p>
     <div class="spacer"></div>
 
-
     <h2>6. Security</h2>
     <p>All data is encrypted in transit and securely stored.</p>
     <div class="spacer"></div>
-
 
     <h2>7. Compliance</h2>
     <p>FinNext AI complies with GDPR, CCPA, and other privacy standards.</p>
     <div class="spacer"></div>
 
-
     <h2>8. Changes to Privacy Policy</h2>
     <p>Updates to the privacy policy will be communicated to users.</p>
     <div class="spacer"></div>
-
 
     <h2>9. Contact</h2>
     <p>For questions, contact us at <a href="mailto:support@pm-next.com">support@pm-next.com</a>.</p>
@@ -170,9 +186,7 @@
 
 <!-- Footer Section -->
 <footer>
-    <a href="index.html">Home</a>
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="eula.html">EULA</a>
+    <p>&copy; 2025 PM Next s.r.o. | <a href="index.html">Home</a> | <a href="terms.html">Term & Conditions</a> | <a href="eula.html">EULA</a> | <a href="support.html">Contact Us</a>
 </footer>
 
 </body>

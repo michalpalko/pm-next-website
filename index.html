@@ -17,7 +17,7 @@
         header {
             background: linear-gradient(135deg, #000000, #5c5b5b, #b2b2b2);
             color: white;
-            padding: 60px 20px;
+            padding: 30px 20px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
@@ -49,10 +49,18 @@
         /* Portfolio Section */
         .portfolio {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             flex-wrap: wrap;
-            margin-top: 50px;
+            margin: 0px auto;
             padding: 20px;
+            max-width: 1000px;
+        }
+
+        .portfolio h2 {
+            width: 100%;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
         }
 
         .portfolio-item {
@@ -61,8 +69,8 @@
             margin: 20px;
             border-radius: 10px;
             padding: 16px;
+            background: #fff;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
@@ -76,15 +84,18 @@
             height: 200px;
             object-fit: cover;
             border-radius: 20px;
-            border-bottom: 3px solid #ffffff;
+            border-bottom: 3px solid #3b33d8;
+        }
+
+        .portfolio-item h2 {
+            font-size: 1.4rem;
+            margin-top: 15px;
         }
 
         .portfolio-item p {
-            font-size: 1.1rem;
-            font-weight: bold;
-            color: #333;
-            border-radius: 20px;
-            padding: 20px 0;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #444;
         }
 
         .portfolio-item a {
@@ -100,18 +111,16 @@
         }
 
         .portfolio-item a:hover {
-            background-color: #3b33d8;
+            background-color: #2a248f;
         }
 
         /* Footer Section */
         footer {
             background-color: #333;
             color: white;
-            padding: 30px;
+            padding: 20px;
             text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            margin-top: 40px;
         }
 
         footer a {
@@ -125,17 +134,16 @@
             text-decoration: underline;
         }
 
-        /* Media Queries */
+        /* Responsive Design */
         @media (max-width: 768px) {
             .portfolio {
                 flex-direction: column;
                 align-items: center;
             }
-        }
 
-        h2 {
-            padding-right: 20px;
-            padding-left: 20px;
+            .portfolio-item {
+                width: 90%;
+            }
         }
     </style>
 </head>
@@ -143,27 +151,25 @@
 
 <!-- Header Section -->
 <header>
-    <h1>PM-NEXT s.r.o</h1>
+    <h1>PM-NEXT</h1>
     <h2>Next Level Mobile Apps</h2>
     <p>We are revolutionizing the mobile development landscape with next-generation apps. Our focus is on innovation, scalability, and user-centric design to create apps that push the boundaries of what's possible.</p>
 </header>
 
 <!-- Portfolio Section -->
- <h2>Apps portfolio</h2>
 <section class="portfolio">
+    <h2>Apps Portfolio</h2>
     <div class="portfolio-item">
-        <img src="images/fnIcon.png" alt="App 1">
+        <img src="images/fnIcon.png" alt="FinNext App">
         <h2>FinNext</h2>
-        <p>AI generated stock market reports</p>
+        <p>AI-generated stock market reports</p>
         <a href="finnextApp.html">Learn More</a>
     </div>
 </section>
 
 <!-- Footer Section -->
 <footer>
-    <a href="terms.html">Terms and Conditions</a>
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="eula.html">EULA</a>
+    <p>&copy; 2025 PM Next s.r.o. | <a href="terms.html">Term & Conditions</a> | <a href="eula.html">EULA</a> | <a href="privacy.html">Privacy Policy</a> | <a href="support.html">Contact Us</a>
 </footer>
 
 </body>
