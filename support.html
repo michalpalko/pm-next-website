@@ -9,8 +9,10 @@
 <body>
 
     <header>
-        <h1>Support</h1>
+        <h1>PM Next Support</h1>
     </header>
+
+    
 
     <div class="support-container">
         <div class="background-image"></div>
@@ -19,13 +21,11 @@
         <div class="content">
             <p class="description">Need help? Enter your email, and we'll assist you. You can also reach us directly via email.</p>
 
-            <!-- Support Form -->
             <form class="support-form" onsubmit="openMailClient(event)">
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
                 <button type="submit">Contact Support</button>
             </form>
 
-            <!-- Alternative Contact Message -->
             <p class="alternative">
                 If your email client doesn’t open, manually email us at  
                 <a href="mailto:support@pm-next.com">support@pm-next.com</a>.
@@ -35,7 +35,7 @@
 
     <script>
         function openMailClient(event) {
-            event.preventDefault(); // Prevent actual form submission
+            event.preventDefault();
             const emailInput = document.getElementById("email").value;
             if (emailInput) {
                 window.location.href = `mailto:support@pm-next.com?subject=Support Request&body=Hello, my email is ${emailInput}. I need help with...`;
@@ -43,9 +43,8 @@
         }
     </script>
 
-<!-- Footer Section -->
 <footer>
-    <p>&copy; 2025 PM Next s.r.o. | <a href="index.html">Home</a> | <a href="terms.html">Term & Conditions</a> | <a href="privacy.html">Privacy Policy</a> | <a href="eula.html">EULA</a></p>
+    <p>&copy; PM Next s.r.o.  | <a href="index.html">Home</a> | <a href="terms.html">Terms & Conditions</a> | <a href="privacy.html">Privacy Policy</a> | <a href="eula.html">EULA</a></p>
 </footer>
 </body>
 </html>

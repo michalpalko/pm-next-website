@@ -4,11 +4,11 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    min-height: 100vh;
 }
 
-/* Header Styles */
 header {
-    background: linear-gradient(135deg, #000000, #5c5b5b, #b2b2b2);
+    background: linear-gradient(135deg, #0061ff, #942192);
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0;
     animation: fadeIn 1s ease-in-out;
 }
@@ -29,35 +29,23 @@ header p {
     margin-right: auto;
 }
 
-/* Animation for fade-in */
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
-/* Content Section */
 .content {
-    padding: 20px 20px;
+    padding: 20px;
     max-width: 1000px;
     margin: 40px auto;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    flex: 1;
 }
 
-.spacer {
-    height: 10px;
-    width: 100%;  
-}
-
-h2 {
-    font-size: 1.35rem;
+h2, h3 {
     color: #333;
-    margin-bottom: 20px;
 }
 
 p {
@@ -66,9 +54,56 @@ p {
     margin-bottom: 20px;
 }
 
-ul {
-    margin: 10px 0;
+ol {
+    counter-reset: section;
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+ol > li {
+    counter-increment: section;
     padding-left: 20px;
+    padding-top: 10px;
+}
+
+ol > li::before {
+    content: counters(section, ".") " ";
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+ol ol {
+    counter-reset: subsection;
+    padding-left: 20px;
+}
+
+ol ol > li {
+    counter-increment: subsection;
+}
+
+ol ol > li::before {
+    content: counters(section, ".") "." counter(subsection) " ";
+    padding-top: 0px;
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 30px; 
+    counter-reset: none !important; 
+    line-height: 1.5;
+}
+
+ul li {
+    padding-left: 5px;
+    padding-top: 5px;
+    line-height: 1.5;
+}
+
+ul li::before {
+    content: "";
+    font-weight: normal;
 }
 
 footer {
@@ -76,29 +111,29 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
-    position: fixed;
+    position: relative;
     width: 100%;
-    bottom: 0;
+    margin-top: 40px;
 }
 
 footer a {
     color: white;
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: small;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
     }
 
     .content {
-        padding: 20px;
+        padding: 15px;
     }
 }

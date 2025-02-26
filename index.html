@@ -15,7 +15,7 @@
 
         /* Header Styles */
         header {
-            background: linear-gradient(135deg, #000000, #5c5b5b, #b2b2b2);
+            background: linear-gradient(135deg, #0061ff, #942192);
             color: white;
             padding: 30px 20px;
             text-align: center;
@@ -26,6 +26,12 @@
             font-size: 3rem;
             margin: 0;
             animation: fadeIn 1s ease-in-out;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
         }
 
         header p {
@@ -46,14 +52,19 @@
             }
         }
 
-        /* Portfolio Section */
+        .content {
+            flex: 1;  /* This will push the footer to the bottom */
+        }
+
         .portfolio {
+            flex: 1;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             margin: 0px auto;
             padding: 20px;
             max-width: 1000px;
+            min-height: 100%;
         }
 
         .portfolio h2 {
@@ -121,13 +132,14 @@
             padding: 10px;
             text-align: center;
             margin-top: 40px;
+            font-size: small;
         }
 
         footer a {
             color: white;
             margin: 0 15px;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: normal;
         }
 
         footer a:hover {
@@ -157,19 +169,21 @@
 </header>
 
 <!-- Portfolio Section -->
-<section class="portfolio">
-    <h2>Apps Portfolio</h2>
-    <div class="portfolio-item">
-        <img src="images/fnIcon.png" alt="FinNext App">
-        <h2>FinNext</h2>
-        <p>AI-generated stock market reports</p>
-        <a href="finnextApp.html">Learn More</a>
-    </div>
-</section>
+<div class="wrapper">
+    <section class="portfolio">
+        <h2>Apps Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="images/fnIcon.png" alt="FinNext App">
+            <h2>FinNext</h2>
+            <p>AI-generated stock market reports</p>
+            <a href="finnextApp.html">Learn More</a>
+        </div>
+    </section>
+</div>
 
 <!-- Footer Section -->
 <footer>
-    <p>&copy; 2025 PM Next s.r.o. | <a href="terms.html">Term & Conditions</a> | <a href="eula.html">EULA</a> | <a href="privacy.html">Privacy Policy</a> | <a href="support.html">Contact Us</a>
+    <p>&copy; 2025 PM Next s.r.o. | <a href="terms.html">Terms & Conditions</a> | <a href="eula.html">EULA</a> | <a href="privacy.html">Privacy Policy</a> | <a href="support.html">Contact Us</a>
 </footer>
 
 </body>
