@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.pmnext.finnext",
+      "sha256_cert_fingerprints": [
+        "50:B8:20:F0:72:2D:EE:4F:61:37:44:2B:EC:EF:36:3D:67:C6:8B:6D:B7:3F:93:2E:08:40:4C:8F:2C:67:31:C7"
+      ]
+    }
+  }
+]
