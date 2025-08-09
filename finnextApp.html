@@ -59,13 +59,25 @@
             margin-bottom: 30px;
         }
 
-        /* App Store Button */
+        /* App Store Button */  
         .app-store-button img {
             width: 200px;
+            height: 70px;
             transition: transform 0.3s ease;
         }
 
         .app-store-button img:hover {
+            transform: scale(1.1); /* Slight hover effect */
+        }
+
+                /* App Store Button */  
+        .play-store-button img {
+            width: 190px;
+            height: 60px;
+            transition: transform 0.3s ease;
+        }
+
+        .play-store-button img:hover {
             transform: scale(1.1); /* Slight hover effect */
         }
 
@@ -116,7 +128,7 @@
                 <h1>Discover the Power of FinNext AI</h1>
                 <p class="description">
                     Unlock a new era of stock market insights and financial management with FinNext AI.
-                    Our app provides you with the most up-to-date reports, personalized news, and robust subscription tools to take your financial journey to the next level.
+                    Our app provides you with AI powered stock predictions, the most up-to-date reports, personalized news, hot daytrading tips and robust subscription tools to take your financial journey to the next level.
                 </p>
 
 <!--                 
@@ -138,10 +150,16 @@
                 </p>
 
                 <div class="button-container">
+                    <a href="https://play.google.com/store/apps/details?id=com.pmnext.finnext" class="play-store-button">
+                        <img src="images/googleplaystorebadge.png" alt="Download on the Google Play">
+                    </a>
+                </div>
+                <div class="button-container">
                     <a href="https://apps.apple.com/sk/app/finnext/id6741854254" class="app-store-button">
                         <img src="images/appstorebadge.png" alt="Download on the App Store">
                     </a>
                 </div>
+                
             </header>
         </div>
     </div>
