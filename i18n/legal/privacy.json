@@ -1,0 +1,149 @@
+{
+  "defaultLang": "en",
+  "localizations": {
+    "ar": {
+      "title": "سياسة الخصوصية (Baby Diary)",
+      "eyebrow": "مستند قانوني",
+      "effectiveDateLabel": "تاريخ السريان",
+      "effectiveDate": "13 فبراير 2026",
+      "nav": { "company": "الشركة", "babyDiary": "Baby Diary", "terms": "الشروط" },
+      "footer": { "companyPage": "صفحة الشركة", "babyDiary": "Baby Diary", "terms": "الشروط والأحكام" },
+      "contentHtml": "<h3>1. المقدمة</h3><p>توضح سياسة الخصوصية هذه كيفية تعامل تطبيق Baby Diary مع بيانات المستخدمين.</p><h3>2. جمع البيانات</h3><ul><li>لا يجمع التطبيق أي بيانات شخصية.</li><li>تُخزن جميع معلومات الأنشطة محليًا على الجهاز (SharedPreferences).</li></ul><h3>3. استخدام البيانات</h3><p>تُستخدم البيانات حصريًا لوظائف التطبيق ولا يتم إرسالها إلى أي جهة.</p><h3>4. مشاركة البيانات</h3><p>لا تتم مشاركة البيانات مع أطراف ثالثة.</p><h3>5. أمن البيانات</h3><ul><li>يتم تخزين البيانات محليًا، لذلك لا يملك حق الوصول إليها إلا المستخدم.</li><li>نوصي باستخدام جهاز آمن وإجراء نسخ احتياطية للبيانات بانتظام عند الحاجة.</li></ul><h3>6. التغييرات على سياسة الخصوصية</h3><p>قد يتم تحديث هذه السياسة. نوصي بمراجعة النسخة الحالية بانتظام.</p>"
+    },
+    "cs": {
+      "title": "Zásady ochrany osobních údajů (Baby Diary)",
+      "eyebrow": "Právní dokument",
+      "effectiveDateLabel": "Datum účinnosti",
+      "effectiveDate": "13. února 2026",
+      "nav": { "company": "Společnost", "babyDiary": "Baby Diary", "terms": "Podmínky" },
+      "footer": { "companyPage": "Stránka společnosti", "babyDiary": "Baby Diary", "terms": "Podmínky používání" },
+      "contentHtml": "<h3>1. Úvod</h3><p>Tyto Zásady ochrany osobních údajů vysvětlují, jak aplikace Baby Diary nakládá s údaji uživatelů.</p><h3>2. Shromažďování údajů</h3><ul><li>Aplikace neshromažďuje žádné osobní údaje.</li><li>Veškeré informace o aktivitách jsou uloženy lokálně v zařízení (SharedPreferences).</li></ul><h3>3. Použití údajů</h3><p>Údaje jsou používány výhradně pro funkčnost aplikace a nikam se neodesílají.</p><h3>4. Sdílení údajů</h3><p>Údaje nejsou sdíleny s třetími stranami.</p><h3>5. Bezpečnost údajů</h3><ul><li>Údaje jsou uloženy lokálně, takže přístup k nim má pouze uživatel.</li><li>Doporučujeme používat zabezpečené zařízení a v případě potřeby pravidelně zálohovat data.</li></ul><h3>6. Změny zásad ochrany osobních údajů</h3><p>Tyto zásady mohou být aktualizovány. Doporučujeme pravidelně kontrolovat aktuální verzi.</p>"
+    },
+    "de": {
+      "title": "Datenschutzerklärung (Baby Diary)",
+      "eyebrow": "Rechtsdokument",
+      "effectiveDateLabel": "Gültig ab",
+      "effectiveDate": "13. Februar 2026",
+      "nav": { "company": "Unternehmen", "babyDiary": "Baby Diary", "terms": "Bedingungen" },
+      "footer": { "companyPage": "Unternehmensseite", "babyDiary": "Baby Diary", "terms": "Nutzungsbedingungen" },
+      "contentHtml": "<h3>1. Einleitung</h3><p>Diese Datenschutzerklärung erläutert, wie die App Baby Diary mit Nutzerdaten umgeht.</p><h3>2. Datenerhebung</h3><ul><li>Die App erhebt keine personenbezogenen Daten.</li><li>Alle Aktivitätsinformationen werden lokal auf dem Gerät gespeichert (SharedPreferences).</li></ul><h3>3. Verwendung der Daten</h3><p>Die Daten werden ausschließlich für die Funktionalität der App verwendet und nirgendwohin übertragen.</p><h3>4. Datenweitergabe</h3><p>Daten werden nicht an Dritte weitergegeben.</p><h3>5. Datensicherheit</h3><ul><li>Die Daten werden lokal gespeichert, sodass nur der Nutzer Zugriff hat.</li><li>Wir empfehlen, ein sicheres Gerät zu verwenden und Daten bei Bedarf regelmäßig zu sichern.</li></ul><h3>6. Änderungen der Datenschutzerklärung</h3><p>Diese Richtlinie kann aktualisiert werden. Wir empfehlen, die aktuelle Version regelmäßig zu prüfen.</p>"
+    },
+    "el": {
+      "title": "Πολιτική Απορρήτου (Baby Diary)",
+      "eyebrow": "Νομικό έγγραφο",
+      "effectiveDateLabel": "Ημερομηνία έναρξης ισχύος",
+      "effectiveDate": "13 Φεβρουαρίου 2026",
+      "nav": { "company": "Εταιρεία", "babyDiary": "Baby Diary", "terms": "Όροι" },
+      "footer": { "companyPage": "Σελίδα εταιρείας", "babyDiary": "Baby Diary", "terms": "Όροι και Προϋποθέσεις" },
+      "contentHtml": "<h3>1. Εισαγωγή</h3><p>Η παρούσα Πολιτική Απορρήτου εξηγεί πώς η εφαρμογή Baby Diary χειρίζεται τα δεδομένα των χρηστών.</p><h3>2. Συλλογή δεδομένων</h3><ul><li>Η εφαρμογή δεν συλλέγει προσωπικά δεδομένα.</li><li>Όλες οι πληροφορίες δραστηριοτήτων αποθηκεύονται τοπικά στη συσκευή (SharedPreferences).</li></ul><h3>3. Χρήση δεδομένων</h3><p>Τα δεδομένα χρησιμοποιούνται αποκλειστικά για τη λειτουργία της εφαρμογής και δεν αποστέλλονται πουθενά.</p><h3>4. Κοινοποίηση δεδομένων</h3><p>Τα δεδομένα δεν κοινοποιούνται σε τρίτους.</p><h3>5. Ασφάλεια δεδομένων</h3><ul><li>Τα δεδομένα αποθηκεύονται τοπικά, επομένως πρόσβαση έχει μόνο ο χρήστης.</li><li>Συνιστούμε τη χρήση ασφαλούς συσκευής και τακτικά αντίγραφα ασφαλείας όπου απαιτείται.</li></ul><h3>6. Αλλαγές στην Πολιτική Απορρήτου</h3><p>Η παρούσα πολιτική μπορεί να ενημερώνεται. Συνιστούμε να ελέγχετε τακτικά την τρέχουσα έκδοση.</p>"
+    },
+    "en": {
+      "title": "Baby Diary Privacy Policy",
+      "eyebrow": "Legal Document",
+      "effectiveDateLabel": "Effective date",
+      "effectiveDate": "February 13, 2026",
+      "nav": { "company": "Company", "babyDiary": "Baby Diary", "terms": "Terms" },
+      "footer": { "companyPage": "Company Page", "babyDiary": "Baby Diary", "terms": "Terms & Conditions" },
+      "contentHtml": "<h3>1. Introduction</h3><p>These Privacy Policy principles explain how the Baby Diary application handles user data.</p><h3>2. Data collection</h3><ul><li>The App does not collect any personal data.</li><li>All activity information is stored locally on the device (SharedPreferences).</li></ul><h3>3. Use of data</h3><p>Data is used exclusively for the App functionality and is not sent anywhere.</p><h3>4. Data sharing</h3><p>Data is not shared with third parties.</p><h3>5. Data security</h3><ul><li>Data is stored locally, so only the user has access.</li><li>We recommend using a secured device and backing up data regularly when needed.</li></ul><h3>6. Changes to Privacy Policy</h3><p>These policies may be updated. We recommend checking the current version regularly.</p>"
+    },
+    "es": {
+      "title": "Política de Privacidad (Baby Diary)",
+      "eyebrow": "Documento legal",
+      "effectiveDateLabel": "Fecha de entrada en vigor",
+      "effectiveDate": "13 de febrero de 2026",
+      "nav": { "company": "Empresa", "babyDiary": "Baby Diary", "terms": "Términos" },
+      "footer": { "companyPage": "Página de empresa", "babyDiary": "Baby Diary", "terms": "Términos y Condiciones" },
+      "contentHtml": "<h3>1. Introducción</h3><p>Esta Política de Privacidad explica cómo la aplicación Baby Diary gestiona los datos de los usuarios.</p><h3>2. Recopilación de datos</h3><ul><li>La aplicación no recopila datos personales.</li><li>Toda la información de actividades se almacena localmente en el dispositivo (SharedPreferences).</li></ul><h3>3. Uso de los datos</h3><p>Los datos se utilizan exclusivamente para el funcionamiento de la aplicación y no se envían a ningún lugar.</p><h3>4. Compartición de datos</h3><p>Los datos no se comparten con terceros.</p><h3>5. Seguridad de los datos</h3><ul><li>Los datos se almacenan localmente, por lo que solo el usuario tiene acceso.</li><li>Recomendamos usar un dispositivo seguro y realizar copias de seguridad periódicas cuando sea necesario.</li></ul><h3>6. Cambios en la Política de Privacidad</h3><p>Esta política puede actualizarse. Recomendamos revisar regularmente la versión actual.</p>"
+    },
+    "fr": {
+      "title": "Politique de confidentialité (Baby Diary)",
+      "eyebrow": "Document juridique",
+      "effectiveDateLabel": "Date d'effet",
+      "effectiveDate": "13 février 2026",
+      "nav": { "company": "Entreprise", "babyDiary": "Baby Diary", "terms": "Conditions" },
+      "footer": { "companyPage": "Page entreprise", "babyDiary": "Baby Diary", "terms": "Conditions d'utilisation" },
+      "contentHtml": "<h3>1. Introduction</h3><p>Cette Politique de confidentialité explique comment l'application Baby Diary traite les données des utilisateurs.</p><h3>2. Collecte des données</h3><ul><li>L'application ne collecte aucune donnée personnelle.</li><li>Toutes les informations d'activité sont stockées localement sur l'appareil (SharedPreferences).</li></ul><h3>3. Utilisation des données</h3><p>Les données sont utilisées exclusivement pour le fonctionnement de l'application et ne sont envoyées nulle part.</p><h3>4. Partage des données</h3><p>Les données ne sont pas partagées avec des tiers.</p><h3>5. Sécurité des données</h3><ul><li>Les données sont stockées localement, de sorte que seul l'utilisateur y a accès.</li><li>Nous recommandons d'utiliser un appareil sécurisé et de sauvegarder régulièrement les données si nécessaire.</li></ul><h3>6. Modifications de la Politique de confidentialité</h3><p>Cette politique peut être mise à jour. Nous recommandons de consulter régulièrement la version actuelle.</p>"
+    },
+    "hu": {
+      "title": "Adatvédelmi szabályzat (Baby Diary)",
+      "eyebrow": "Jogi dokumentum",
+      "effectiveDateLabel": "Hatálybalépés dátuma",
+      "effectiveDate": "2026. február 13.",
+      "nav": { "company": "Cég", "babyDiary": "Baby Diary", "terms": "Feltételek" },
+      "footer": { "companyPage": "Cégoldal", "babyDiary": "Baby Diary", "terms": "Felhasználási feltételek" },
+      "contentHtml": "<h3>1. Bevezetés</h3><p>Ez az Adatvédelmi szabályzat elmagyarázza, hogyan kezeli a Baby Diary alkalmazás a felhasználói adatokat.</p><h3>2. Adatgyűjtés</h3><ul><li>Az alkalmazás nem gyűjt személyes adatokat.</li><li>Minden tevékenységi információ helyben, az eszközön tárolódik (SharedPreferences).</li></ul><h3>3. Az adatok felhasználása</h3><p>Az adatok kizárólag az alkalmazás működéséhez használatosak, és nem kerülnek továbbításra.</p><h3>4. Adatmegosztás</h3><p>Az adatok nincsenek megosztva harmadik féllel.</p><h3>5. Adatbiztonság</h3><ul><li>Az adatok helyben tárolódnak, így csak a felhasználó fér hozzájuk.</li><li>Javasoljuk biztonságos eszköz használatát és szükség esetén rendszeres adatmentést.</li></ul><h3>6. Az Adatvédelmi szabályzat módosításai</h3><p>Ez a szabályzat frissülhet. Javasoljuk az aktuális verzió rendszeres ellenőrzését.</p>"
+    },
+    "it": {
+      "title": "Informativa sulla privacy (Baby Diary)",
+      "eyebrow": "Documento legale",
+      "effectiveDateLabel": "Data di efficacia",
+      "effectiveDate": "13 febbraio 2026",
+      "nav": { "company": "Azienda", "babyDiary": "Baby Diary", "terms": "Termini" },
+      "footer": { "companyPage": "Pagina aziendale", "babyDiary": "Baby Diary", "terms": "Termini e Condizioni" },
+      "contentHtml": "<h3>1. Introduzione</h3><p>Questa Informativa sulla privacy spiega come l'app Baby Diary gestisce i dati degli utenti.</p><h3>2. Raccolta dei dati</h3><ul><li>L'app non raccoglie dati personali.</li><li>Tutte le informazioni sulle attività sono memorizzate localmente sul dispositivo (SharedPreferences).</li></ul><h3>3. Uso dei dati</h3><p>I dati sono utilizzati esclusivamente per la funzionalità dell'app e non vengono inviati altrove.</p><h3>4. Condivisione dei dati</h3><p>I dati non sono condivisi con terze parti.</p><h3>5. Sicurezza dei dati</h3><ul><li>I dati sono memorizzati localmente, quindi solo l'utente può accedervi.</li><li>Consigliamo di usare un dispositivo sicuro e di eseguire backup regolari dei dati quando necessario.</li></ul><h3>6. Modifiche all'Informativa sulla privacy</h3><p>Questa informativa può essere aggiornata. Consigliamo di controllare regolarmente la versione corrente.</p>"
+    },
+    "ja": {
+      "title": "プライバシーポリシー (Baby Diary)",
+      "eyebrow": "法的文書",
+      "effectiveDateLabel": "施行日",
+      "effectiveDate": "2026年2月13日",
+      "nav": { "company": "会社", "babyDiary": "Baby Diary", "terms": "利用規約" },
+      "footer": { "companyPage": "会社ページ", "babyDiary": "Baby Diary", "terms": "利用規約" },
+      "contentHtml": "<h3>1. はじめに</h3><p>本プライバシーポリシーは、Baby Diaryアプリがユーザーデータをどのように扱うかを説明します。</p><h3>2. データ収集</h3><ul><li>本アプリは個人情報を収集しません。</li><li>すべての活動情報は端末内にローカル保存されます（SharedPreferences）。</li></ul><h3>3. データの利用</h3><p>データはアプリ機能のためだけに使用され、外部に送信されません。</p><h3>4. データ共有</h3><p>データは第三者と共有されません。</p><h3>5. データセキュリティ</h3><ul><li>データはローカル保存されるため、アクセスできるのは利用者のみです。</li><li>必要に応じて、安全な端末の利用と定期的なバックアップを推奨します。</li></ul><h3>6. プライバシーポリシーの変更</h3><p>本ポリシーは更新される場合があります。最新版を定期的にご確認ください。</p>"
+    },
+    "nl": {
+      "title": "Privacybeleid (Baby Diary)",
+      "eyebrow": "Juridisch document",
+      "effectiveDateLabel": "Ingangsdatum",
+      "effectiveDate": "13 februari 2026",
+      "nav": { "company": "Bedrijf", "babyDiary": "Baby Diary", "terms": "Voorwaarden" },
+      "footer": { "companyPage": "Bedrijfspagina", "babyDiary": "Baby Diary", "terms": "Gebruiksvoorwaarden" },
+      "contentHtml": "<h3>1. Inleiding</h3><p>Dit privacybeleid legt uit hoe de Baby Diary-app met gebruikersgegevens omgaat.</p><h3>2. Gegevensverzameling</h3><ul><li>De app verzamelt geen persoonlijke gegevens.</li><li>Alle activiteiteninformatie wordt lokaal op het apparaat opgeslagen (SharedPreferences).</li></ul><h3>3. Gebruik van gegevens</h3><p>Gegevens worden uitsluitend gebruikt voor de functionaliteit van de app en nergens naartoe verzonden.</p><h3>4. Gegevensdeling</h3><p>Gegevens worden niet gedeeld met derden.</p><h3>5. Gegevensbeveiliging</h3><ul><li>Gegevens worden lokaal opgeslagen, waardoor alleen de gebruiker toegang heeft.</li><li>Wij raden aan een beveiligd apparaat te gebruiken en indien nodig regelmatig back-ups te maken.</li></ul><h3>6. Wijzigingen in het privacybeleid</h3><p>Dit beleid kan worden bijgewerkt. We raden aan de actuele versie regelmatig te controleren.</p>"
+    },
+    "pl": {
+      "title": "Polityka prywatności (Baby Diary)",
+      "eyebrow": "Dokument prawny",
+      "effectiveDateLabel": "Data wejścia w życie",
+      "effectiveDate": "13 lutego 2026",
+      "nav": { "company": "Firma", "babyDiary": "Baby Diary", "terms": "Warunki" },
+      "footer": { "companyPage": "Strona firmy", "babyDiary": "Baby Diary", "terms": "Warunki korzystania" },
+      "contentHtml": "<h3>1. Wprowadzenie</h3><p>Niniejsza Polityka prywatności wyjaśnia, jak aplikacja Baby Diary przetwarza dane użytkowników.</p><h3>2. Gromadzenie danych</h3><ul><li>Aplikacja nie gromadzi żadnych danych osobowych.</li><li>Wszystkie informacje o aktywnościach są przechowywane lokalnie na urządzeniu (SharedPreferences).</li></ul><h3>3. Wykorzystanie danych</h3><p>Dane są wykorzystywane wyłącznie do działania aplikacji i nie są nigdzie wysyłane.</p><h3>4. Udostępnianie danych</h3><p>Dane nie są udostępniane podmiotom trzecim.</p><h3>5. Bezpieczeństwo danych</h3><ul><li>Dane są przechowywane lokalnie, więc dostęp do nich ma wyłącznie użytkownik.</li><li>Zalecamy korzystanie z zabezpieczonego urządzenia i regularne tworzenie kopii zapasowych, jeśli to potrzebne.</li></ul><h3>6. Zmiany Polityki prywatności</h3><p>Niniejsza polityka może być aktualizowana. Zalecamy regularne sprawdzanie aktualnej wersji.</p>"
+    },
+    "pt": {
+      "title": "Política de Privacidade (Baby Diary)",
+      "eyebrow": "Documento legal",
+      "effectiveDateLabel": "Data de vigência",
+      "effectiveDate": "13 de fevereiro de 2026",
+      "nav": { "company": "Empresa", "babyDiary": "Baby Diary", "terms": "Termos" },
+      "footer": { "companyPage": "Página da empresa", "babyDiary": "Baby Diary", "terms": "Termos e Condições" },
+      "contentHtml": "<h3>1. Introdução</h3><p>Esta Política de Privacidade explica como o aplicativo Baby Diary trata os dados dos usuários.</p><h3>2. Coleta de dados</h3><ul><li>O aplicativo não coleta dados pessoais.</li><li>Todas as informações de atividades são armazenadas localmente no dispositivo (SharedPreferences).</li></ul><h3>3. Uso dos dados</h3><p>Os dados são usados exclusivamente para a funcionalidade do aplicativo e não são enviados para nenhum lugar.</p><h3>4. Compartilhamento de dados</h3><p>Os dados não são compartilhados com terceiros.</p><h3>5. Segurança dos dados</h3><ul><li>Os dados são armazenados localmente, portanto apenas o usuário tem acesso.</li><li>Recomendamos usar um dispositivo seguro e fazer backup regular dos dados quando necessário.</li></ul><h3>6. Alterações na Política de Privacidade</h3><p>Esta política pode ser atualizada. Recomendamos verificar regularmente a versão atual.</p>"
+    },
+    "ru": {
+      "title": "Политика конфиденциальности (Baby Diary)",
+      "eyebrow": "Юридический документ",
+      "effectiveDateLabel": "Дата вступления в силу",
+      "effectiveDate": "13 февраля 2026 г.",
+      "nav": { "company": "Компания", "babyDiary": "Baby Diary", "terms": "Условия" },
+      "footer": { "companyPage": "Страница компании", "babyDiary": "Baby Diary", "terms": "Условия использования" },
+      "contentHtml": "<h3>1. Введение</h3><p>Настоящая Политика конфиденциальности объясняет, как приложение Baby Diary обрабатывает данные пользователей.</p><h3>2. Сбор данных</h3><ul><li>Приложение не собирает персональные данные.</li><li>Вся информация об активности хранится локально на устройстве (SharedPreferences).</li></ul><h3>3. Использование данных</h3><p>Данные используются исключительно для работы приложения и никуда не передаются.</p><h3>4. Передача данных</h3><p>Данные не передаются третьим лицам.</p><h3>5. Безопасность данных</h3><ul><li>Данные хранятся локально, поэтому доступ к ним имеет только пользователь.</li><li>Рекомендуем использовать защищенное устройство и при необходимости регулярно делать резервные копии.</li></ul><h3>6. Изменения политики конфиденциальности</h3><p>Данная политика может обновляться. Рекомендуем регулярно проверять актуальную версию.</p>"
+    },
+    "sk": {
+      "title": "Zásady ochrany osobných údajov (Baby Diary)",
+      "eyebrow": "Právny dokument",
+      "effectiveDateLabel": "Dátum účinnosti",
+      "effectiveDate": "13. február 2026",
+      "nav": { "company": "Spoločnosť", "babyDiary": "Baby Diary", "terms": "Podmienky" },
+      "footer": { "companyPage": "Stránka spoločnosti", "babyDiary": "Baby Diary", "terms": "Podmienky používania" },
+      "contentHtml": "<h3>1. Úvod</h3><p>Tieto Zásady ochrany osobných údajov vysvetľujú, ako aplikácia Baby Diary nakladá s údajmi používateľov.</p><h3>2. Zhromažďovanie údajov</h3><ul><li>Aplikácia nezhromažďuje žiadne osobné údaje.</li><li>Všetky informácie o aktivitách sú uložené lokálne v zariadení (SharedPreferences).</li></ul><h3>3. Použitie údajov</h3><p>Údaje sú používané výhradne pre funkčnosť aplikácie a neodosielajú sa nikam.</p><h3>4. Zdieľanie údajov</h3><p>Údaje nie sú zdieľané s tretími stranami.</p><h3>5. Bezpečnosť údajov</h3><ul><li>Údaje sú uložené lokálne, takže prístup k nim má len používateľ.</li><li>Odporúčame používať zabezpečené zariadenie a pravidelne zálohovať údaje, ak je to potrebné.</li></ul><h3>6. Zmeny Zásad ochrany osobných údajov</h3><p>Tieto zásady môžu byť aktualizované. Odporúčame pravidelne kontrolovať aktuálnu verziu.</p>"
+    },
+    "zh": {
+      "title": "隐私政策（Baby Diary）",
+      "eyebrow": "法律文件",
+      "effectiveDateLabel": "生效日期",
+      "effectiveDate": "2026年2月13日",
+      "nav": { "company": "公司", "babyDiary": "Baby Diary", "terms": "条款" },
+      "footer": { "companyPage": "公司页面", "babyDiary": "Baby Diary", "terms": "使用条款" },
+      "contentHtml": "<h3>1. 引言</h3><p>本隐私政策说明 Baby Diary 应用如何处理用户数据。</p><h3>2. 数据收集</h3><ul><li>本应用不收集任何个人数据。</li><li>所有活动信息均保存在设备本地（SharedPreferences）。</li></ul><h3>3. 数据使用</h3><p>数据仅用于应用功能，不会发送到任何地方。</p><h3>4. 数据共享</h3><p>数据不会与第三方共享。</p><h3>5. 数据安全</h3><ul><li>数据保存在本地，因此只有用户可以访问。</li><li>建议使用安全设备，并在需要时定期备份数据。</li></ul><h3>6. 隐私政策变更</h3><p>本政策可能会更新。建议定期查看最新版本。</p>"
+    }
+  }
+}
