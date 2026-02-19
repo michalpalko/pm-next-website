@@ -138,7 +138,7 @@
     setById("footer-privacy-link", content.footerPrivacyLink);
     setById("footer-terms-link", content.footerTermsLink);
 
-    document.title = content.pageTitle || "Baby Diary | PM-NEXT s.r.o.";
+    document.title = content.pageTitle || "Baby Journal | PM-NEXT s.r.o.";
     const description = document.querySelector('meta[name="description"]');
     if (description && content.pageDescription) {
       description.setAttribute("content", content.pageDescription);
@@ -168,12 +168,12 @@
     });
   }
 
-  if (window.BABYDIARY_I18N) {
-    initWithData(window.BABYDIARY_I18N);
+  if (window.BABYJOURNAL_I18N || window.BABYDIARY_I18N) {
+    initWithData(window.BABYJOURNAL_I18N || window.BABYDIARY_I18N);
     return;
   }
 
-  fetch("i18n/babydiary.json", { cache: "no-store" })
+  fetch("i18n/babyjournal.json", { cache: "no-store" })
     .then(function (response) {
       if (!response.ok) throw new Error("Failed to load translations");
       return response.json();

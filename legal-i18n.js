@@ -89,7 +89,7 @@
     const navLegal = document.getElementById("nav-legal");
 
     if (navCompany) navCompany.textContent = nav.company || "Company";
-    if (navApp) navApp.textContent = nav.babyDiary || "Baby Diary";
+    if (navApp) navApp.textContent = nav.babyDiary || "Baby Journal";
     if (navLegal) navLegal.textContent = nav.privacy || nav.terms || "Legal";
 
     const footerCompany = document.getElementById("footer-company");
@@ -97,7 +97,7 @@
     const footerLegal = document.getElementById("footer-legal");
 
     if (footerCompany) footerCompany.textContent = footer.companyPage || "Company Page";
-    if (footerApp) footerApp.textContent = footer.babyDiary || "Baby Diary";
+    if (footerApp) footerApp.textContent = footer.babyDiary || "Baby Journal";
     if (footerLegal) footerLegal.textContent = footer.privacyPolicy || footer.terms || "Legal";
   }
 
